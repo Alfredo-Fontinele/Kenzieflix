@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.kenzie_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 73px;
+    width: 100%;
+}
+
+.kenzie_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 334px;
+    height: 42px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.kenzie_text h1 {
+    color: #FFF;
+}
+
+.section_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 61px 80px 0;
+}
+
+.section_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 34px;
+}
+
+.section_cards:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section_cards img {
+    border-radius: 8px;
+    border: 3px solid #000;
+    width: 160px;
+    height: 160px;
+}
+
+.section_cards img:hover {
+    border: 3px solid #FFF;
+}
+
+/* .section_cards svg {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    background-image: url("https://www.figma.com/file/uYodtneqRloIOrLCvGYMaB/%F0%9F%8F%81-Entrega---CSS%3A-Desenvolvendo-Interface-KenzieFlix?node-id=1%3A103");
+} */
+
+.section_cards svg:hover {
+    stroke-width: 3px;
+}
+
+.section_cards p {
+    margin-top: 34px;
+    color: #FFF;
+}
+
+.kenzie_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kenzie_button button {
+    background-color: #000;
+    border-radius: 8px;
+    /* border: 1.5px solid #FFF; */
+    border: 3px solid #FFF;
+    line-height: 20.8px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 206px;
+    height: 50px;
+    color: #FFF;
+    margin: 0 0 88px 0;
+}
+
+.kenzie_button button:hover {
+    cursor: pointer;
+    background-color: #FFF;
+    color: #000;
+}

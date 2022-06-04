@@ -10,9 +10,24 @@
 }
 
 body {
-    background-color: #000;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     height: 100vh;
+    /* background-image: url("https://kenzie.com.br/blog/wp-content/uploads/2020/11/kenzie_blog_componentizacao-react.jpg"); */
+    /* background-image: url("../imgs/bg_netflix.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
+
+/* main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20,30,40, 0.7);
+} */
 
 .kenzie_logo {
     display: flex;
@@ -43,7 +58,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 61px 80px 0;
+    margin: 0 60px 50px 60px;
 }
 
 .section_cards {
@@ -61,7 +76,8 @@ body {
 
 .section_cards img {
     border-radius: 8px;
-    border: 3px solid #000;
+    /* border: 3px solid #000; */
+    border: 3px solid transparent;
     width: 160px;
     height: 160px;
 }
@@ -70,16 +86,10 @@ body {
     border: 3px solid #FFF;
 }
 
-/* .section_cards svg {
-    stroke: white;
-    stroke-width: 1px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    background-image: url("https://www.figma.com/file/uYodtneqRloIOrLCvGYMaB/%F0%9F%8F%81-Entrega---CSS%3A-Desenvolvendo-Interface-KenzieFlix?node-id=1%3A103");
-} */
-
 .section_cards svg:hover {
     stroke-width: 3px;
+    border-radius: 8px;
+    border: 3px solid #FFF;
 }
 
 .section_cards p {
@@ -94,7 +104,7 @@ body {
 }
 
 .kenzie_button button {
-    background-color: #000;
+    background-color: #243B55;
     border-radius: 8px;
     /* border: 1.5px solid #FFF; */
     border: 3px solid #FFF;
@@ -104,7 +114,6 @@ body {
     width: 206px;
     height: 50px;
     color: #FFF;
-    margin: 0 0 88px 0;
 }
 
 .kenzie_button button:hover {

@@ -14,20 +14,7 @@ body {
     background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     height: 100vh;
-    /* background-image: url("https://kenzie.com.br/blog/wp-content/uploads/2020/11/kenzie_blog_componentizacao-react.jpg"); */
-    /* background-image: url("../imgs/bg_netflix.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
 }
-
-/* main {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(20,30,40, 0.7);
-} */
 
 main {
     padding-bottom: 300px;
@@ -80,7 +67,6 @@ main {
 
 .section_cards img {
     border-radius: 8px;
-    /* border: 3px solid #000; */
     border: 3px solid transparent;
     width: 160px;
     height: 160px;
@@ -110,7 +96,6 @@ main {
 .kenzie_button button {
     background-color: #243B55;
     border-radius: 8px;
-    /* border: 1.5px solid #FFF; */
     border: 3px solid #FFF;
     line-height: 20.8px;
     font-size: 16px;
@@ -118,10 +103,19 @@ main {
     width: 206px;
     height: 50px;
     color: #FFF;
+    cursor: pointer;
 }
 
 .kenzie_button button:hover {
-    cursor: pointer;
     background-color: #FFF;
     color: #000;
+}
+
+@media only screen and (max-width: 800px) {
+
+    h1 {
+        font-size: 26px;
+    }
+    
+
 }

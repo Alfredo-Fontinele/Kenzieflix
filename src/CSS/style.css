@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #1c334d;
+    background-color: #000;
     height: 100vh;
 }
 
@@ -85,17 +85,19 @@ body {
 }
 
 .kenzie_button {
+    margin-top: 82px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .kenzie_button button {
-    margin-top: 28px;
-    background-color: #243B55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
     border-radius: 8px;
-    border: 3px solid #FFF;
-    line-height: 20.8px;
+    border: 1.5px solid #FFF;
     font-size: 16px;
     font-weight: 500;
     width: 206px;
@@ -111,9 +113,16 @@ body {
 
 @media only screen and (max-width: 800px) {
 
-    h1 {
-        font-size: 26px;
+    .kenzie_text {
+        width: 300px;
+    }
+
+    .kenzie_text h1 {
+        font-size: 23px;
     }
     
-
+    main {
+        padding-bottom: 100px;
+    }
+    
 }

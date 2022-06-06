@@ -74,10 +74,14 @@ main {
     border: 3px solid #FFF;
 }
 
-.section_cards svg:hover {
-    stroke-width: 5px;
-    border-radius: 8px;
-    border: 3px solid #FFF;
+#frame {
+    width: 160px;
+    height: 160px;
+    background-image: url("../imgs/Frame_normal.png");
+}
+
+#frame:hover {
+    background-image: url("../imgs/Frame_white.png");
 }
 
 .section_cards p {
